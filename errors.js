@@ -1,0 +1,26 @@
+const errorMessages = {
+    emptyPhoneOrEmail: 'لطفا شماره موبایل یا ایمیل خود را وارد کنید.',
+    emptyEmail: 'لطفا ایمیل خود را وارد کنید.',
+    emptyFirstname: 'لطفا نام خود را وارد کنید.',
+    emptyLastname: 'لطفا نام خانوادگی خود را وارد کنید.',
+    emptyPassword: 'لطفا رمز عبور را وارد کنید.',
+    emptyConfirmPassword: 'لطفا تکرار رمز عبور را وارد کنید.',
+    emptyCaptcha: 'لطفا گزینه من ربات نیستم را انتخاب کنید.',
+    emptyTerms: 'لطفا گزینه قبول شرایط استفاده را انتخاب کنید.',
+    emptyComment: 'لطفا نظر یا سوال خود را بنویسید.',
+    emptyShop: 'لطفا فروشگاه مورد نظر را انتخاب کنید.',
+    emptyCode: 'لطفا کد تخفیف را وارد کنید.',
+    emptyDescription: 'لطفا توضیحات و شرایط استفاده از این کد تخفیف را بنویسید.',
+    emptyDescriptionShopRegister: "لطفا توضیحی در مورد فروشگاه وارد کنید.",
+    emptyPhoneNumber: 'لطفا تلفن همراه را وارد کنید',
+    invalidPhoneOrEmail: "شماره موبایل یا ایمیل نامعتبر است.",
+    invalidEmail: 'آدرس ایمیل نامعتبر است.',
+    invalidUrl: 'آدرس وب سایت نامعتبر است.',
+    invalidPhoneNumber: 'تلفن همراه نامعتبر است',
+    emptyShopName: "لطفا نام فروشگاه را وارد کنید.",
+    emptyWebsite: "لطفا نام وبسایت را وارد کنید.",
+    emptyFullName: "لطفا نام و نام خانوادگی را وارد کنید.",
+    emptyCity: "لطفا نام شهر خود را وارد کنید.",
+}
+
+export default errorMessages;
