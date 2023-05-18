@@ -2958,6 +2958,12 @@ a.cs-text-white:hover {
   height: auto;
 }
 
+.cs-image-border {
+  border: 5px solid #555;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
+  border-radius: 10px;
+}
+
 .cs-mobile-menu-image {
   background-image: url("/static/images/icons/material/menu_black_24dp.svg");
   width: 18px;
@@ -2980,8 +2986,6 @@ a.cs-text-white:hover {
 .cs-font-weight-400 {
   font-weight: 400;
 }
-
-
 
 .cs-white-color {
   color: #fff;
