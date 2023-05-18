@@ -18,7 +18,6 @@ export default function MyApp(props) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="manifest" href="/manifest.json" />
       </Head>
-      x
       <Provider store={store}>
         <Component {...pageProps} />
       </Provider>

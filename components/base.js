@@ -5,6 +5,7 @@ import "nprogress/nprogress.css";
 
 // const FooterResponsive = dynamic(() => import("./footer/FooterResponsive"));
 import FooterResponsive from "./footer/FooterResponsive";
+import QuestionsNav from "./questions/questions-nav";
 const Header = dynamic(() => import("./HeaderNew"));
 
 const Layout = (props) => {
@@ -25,7 +26,9 @@ const Layout = (props) => {
       <Header />
 
       {props.children}
-
+      <div className="cs-center">
+        <QuestionsNav />
+      </div>
       <FooterResponsive />
     </div>
   );

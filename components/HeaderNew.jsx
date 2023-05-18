@@ -73,13 +73,6 @@ const Header = () => {
                   </span>
                 </a>
               </Link>
-              <span className="cs-row">
-                <Link href="/" scroll={false}>
-                  <a alt="کد تخفیف">
-                    <span className="nav-header-item">کد تخفیف</span>
-                  </a>
-                </Link>
-              </span>
             </span>
             <span
               style={{
