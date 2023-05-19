@@ -29,7 +29,6 @@ const Layout = (props) => {
       <div className="cs-center">
         <QuestionsNav />
       </div>
-      <FooterResponsive />
     </div>
   );
 };

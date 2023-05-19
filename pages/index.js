@@ -11,10 +11,13 @@ export default function Index() {
         <div
           style={{
             textAlign: "center",
+            minHeight: "40vh",
+            paddingTop: "50px"
           }}
           className="cs-container"
         >
           <h1>آزمون مصاحبه کانال تخفیف</h1>
+          <h2>ReactJS and NextJS</h2>
         </div>
       </Layout>
     </div>

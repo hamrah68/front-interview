@@ -14,6 +14,9 @@ const QuestionsNav = () => {
       <Link href="/question2">
         <a>سوال دوم</a>
       </Link>
+      <Link href="/question3">
+        <a>سوال سوم</a>
+      </Link>
     </div>
   );
 };
